@@ -41,7 +41,11 @@ In this reanalysis, census tract-level demographic information and geometries is
 
 ### Data transformation and spatial accessibility model
 
-The at-risk group in Kang et al. is defined as people aged 50 and over. Age and sex categories are used to select and sum those groups in each census tract. This information is joined to the census tract geometry and fed into Kang et al.'s analysis to calculate hospital service-to-population ratios and run the spatial accessibility model.
+We read in census tract geometries for Cook and the five surrounding counties.
+
+We also read in demographic data by census tract; the at-risk demographic group in Kang et al. is defined as people aged 50 and over. Age and sex categories are used to select and sum those groups in each census tract.
+
+Then, that information is joined to the census tract geometry and fed into Kang et al.'s analysis to calculate hospital service-to-population ratios and run the spatial accessibility model.
 
 ## Results
 The code for this reanalysis is called `04-COVID-19Acc-Reanalysis-323f21` and can be found in [the RPr-Kang-2020 GitHub repository](https://github.com/emwaugh/RPr-Kang-2020).
@@ -51,9 +55,9 @@ A comparison of the accessibility maps from the original analysis and this reana
 According to the reanalysis, the areas with highest accessibility to healthcare resources are in central Cook County, or closer to Chicago. These differences suggest that the original results erroneously display higher accessibility in areas near Cook County's borders because hospital use by residents of neighboring counties was not considered. Thus, the original study overestimated healthcare resource availability in those areas.
 
 ![Original distribution](assets/ORIG_pop_hospital_icu_beds_continuous.png)
-***Figure 1***. Spatial accessibility in Cook County using ICU beds from the original Kang et al. (2020) analysis.
+***Figure 1***. Spatial accessibility to healthcare resources in Cook County using ICU beds from the original Kang et al. (2020) analysis.
 ![Results of reanalysis](assets/REAN_pop_hospital_icu_beds_continuous.png)
-***Figure 2***. Spatial accessibility in Cook County using ICU beds from this reanalysis.
+***Figure 2***. Spatial accessibility to healthcare resources in Cook County using ICU beds from this reanalysis.
 
 ## Discussion
 
@@ -72,4 +76,5 @@ Open source science and reproducible methodology provides the opportunity to inv
 According to this reanalysis, Cook County residents living close to Chicago have generally better access to COVID-19 resources, while the northwestern and southeastern areas of the county are underserved in comparison. When compared to the original results, this study provides a more accurate picture of resource accessibility throughout Cook County.  An accurate depiction of healthcare accessibility is needed for coordinated responses and effective resource reallocation to underserved areas in Illinois and the rest of the world.
 
 ## Reference
+
 Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Shaowen Wang. 2020. Rapidly measuring spatial accessibility of COVID-19 healthcare resources: a case study of Illinois, USA. International Journal of Health Geographics 19 (1):1–17. DOI:10.1186/s12942-020-00229-x.
