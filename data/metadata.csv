@@ -4,6 +4,8 @@ derived/public/ACC_Chicago_2018_ZIP_POP.shp,ACC_Chicago_2018_ZIP_POP,.shp,Origin
 derived/public/Chicago_ACC.shp,Chicago_ACC,.shp,Original Study; raw/public/GridFile/Chicago_Grid.shp; raw/public/HospitalData/Chicago_Hospital_Info.shp; raw/public/PopData/Chicago_Tract.shp; raw/public/Chicago_Network.graphml; ,,included
 derived/public/Illinois_Acc.shp,Illinois_ACC,.shp,Original Study; raw/public/GridFile/Illinois_Grid.shp; raw/public/HospitalData/Illinois_Hospital_Info.shp; raw/public/PopData/Illinois_Tract.shp; raw/public/Illinois_Network.graphml; ,,included
 derived/public/results.gpkg,results,.gpkg,raw/public/PopData/Chicago_Tract.shp; raw/public/PopData/Chicago_ZIPCODE.shp; raw/public/GridFile/Chicago_Grid.shp; raw/private/Chicago_Network_Buffer.graphml,,derived
+derived/public/results_reanalysis.gpkg, results_reanalysis, .gpkg,,,derived
+derived/public/results_reanalysis_buffered.gpkg, results_reanalysis_buffered, .gpkg,,,derived
 ,,,,,
 raw/private/Chicago_Network_Buffer.graphml,Chicago_Buffer_Network,.graphml,OSMNX; Open Street Map,,included (derived if not included)
 ,,,,,
