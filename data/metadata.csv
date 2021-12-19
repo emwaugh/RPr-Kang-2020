@@ -32,6 +32,10 @@ raw/public/Pre-Processing/tl_2018_tl_2018_24_tract.shp,tl_2018_24_tract,.shp,US 
 raw/public/Pre-Processing/tl_2020_17_place.shp,tl_2020_17_place,.shp,US Census Bureau (API),tl_2020_17_place.shp.iso.xml; tl_2020_17_place.shp.ea.iso.xml,included (derived if not included)
 raw/public/SVI/SVI2018_ILLINOIS_tract.shp,SVI2018_ILLINOIS_tract,.shp,Original Study; CDC,SVI2018_ILLINOIS.xml,included
 raw/public/Chicago_Network.graphml,Chicago_Network,.graphml,Original Study; OSMNX; Open Street Map,,included
+raw/public/PopDataBuffered/cb_2018_17_tract_500k.shp, cb_2018_17_tract_500k, .shp,,,included
+raw/public/PopDataBuffered/cb_2018_17_place_500k.shp, cb_2018_17_place_500k, .shp,,,included
+raw/public/PopDataBuffered/ACSDT5Y2018.B01001_data_with_overlays_2021-10-28T145639.csv, ACSDT5Y2018.B01001_data_with_overlays_2021-10-28T145639, .csv,,,included
+raw/public/PopDataBuffered/ACSST5Y2018.S0101_data_with_overlays_2021-10-28T150304.csv, ACSST5Y2018.S0101_data_with_overlays_2021-10-28T150304, .csv,,,included
 ,,,,,
 ,,,,,
 * Original Study: provided in the original paper's github repository,,,,,
